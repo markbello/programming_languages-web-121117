@@ -3,6 +3,6 @@ def reformat_languages(languages)
   type_array = []
   style_array = []
   reformatted_languages = {}
-  languages.each {|type| type.each{|lang| reformatted_languages[lang] = []}}
+  languages.each {|type| type.each{|lang| reformatted_languages[lang] = [lang]}}
 
 end
