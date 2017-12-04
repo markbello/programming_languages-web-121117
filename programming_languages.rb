@@ -13,6 +13,7 @@ def reformat_languages(languages)
         reformatted_languages[key2][:style].push(key1.to_s)
       else
         reformatted_languages[key2][:style].push(key1.to_s)
+        reformatted_languages[key2][:style].push("foo")
       end
       }
     }
