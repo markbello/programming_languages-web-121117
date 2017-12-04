@@ -1,9 +1,6 @@
 require "pry"
 
 def reformat_languages(languages)
-  lang_array = []
-  type_array = []
-  style_array = []
   reformatted_languages = {}
   languages.each{|key1, value|
     value.each{|key2,value|
@@ -16,6 +13,5 @@ def reformat_languages(languages)
       end
       }
     }
-
-  binding.pry
+  reformatted_languages
 end
