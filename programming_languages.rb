@@ -6,6 +6,6 @@ def reformat_languages(languages)
   style_array = []
   reformatted_languages = {}
   languages.each{|key, value| reformatted_languages[key] = key}
-  }
+
   binding.pry
 end
