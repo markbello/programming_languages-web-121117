@@ -5,7 +5,7 @@ def reformat_languages(languages)
   type_array = []
   style_array = []
   reformatted_languages = {}
-  languages.each{|key, value| reformatted_languages.push(value)
+  languages.each{|key, value| reformatted_languages[key] = key}
   }
   binding.pry
 end
