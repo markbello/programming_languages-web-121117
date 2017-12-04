@@ -10,9 +10,9 @@ def reformat_languages(languages)
       if !languages[key2]
         reformatted_languages[key2] = value
         reformatted_languages[key2][:style] = []
-        reformatted_languages[key2][:style].push(key1.to_s)
+        reformatted_languages[key2][:style].push(key1)
       else
-        reformatted_languages[key2][:style].push(key1.to_s)
+        reformatted_languages[key2][:style].push(key1)
         reformatted_languages[key2][:style].push("foo")
       end
       }
