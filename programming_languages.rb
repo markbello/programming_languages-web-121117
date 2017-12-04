@@ -1,3 +1,8 @@
 def reformat_languages(languages)
-  # your code here
+  lang_array = []
+  type_array = []
+  style_array = []
+  reformatted_languages = {}
+  languages.each {|type| type.each{|lang| reformatted_languages << lang}}
+  
 end
